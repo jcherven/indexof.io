@@ -1,19 +1,98 @@
 /* grotesque - TeX Gyre Heroes */
 /* regular */
-@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/stylesheet.css');
+@font-face {
+		font-family: 'grotesque';
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/texgyreheros-regular-webfont.eot');
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/texgyreheros-regular-webfont.woff') format('woff'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/texgyreheros-regular-webfont.ttf') format('truetype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/texgyreheros-regular-webfont.svg#tex_gyre_herosregular') format('svg');
+		font-weight: regular;
+		font-style: regular;
+}
+
 /* regular italic */
-@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/stylesheet.css');
+@font-face {
+		font-family: 'grotesque';
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/texgyreheros-italic-webfont.eot');
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/texgyreheros-italic-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/texgyreheros-italic-webfont.woff') format('woff'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/texgyreheros-italic-webfont.ttf') format('truetype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/texgyreheros-italic-webfont.svg#tex_gyre_herositalic') format('svg');
+		font-weight: regular;
+		font-style: italic;
+}
+
 /* bold regular */
-@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/stylesheet.css');
+@font-face {
+		font-family: 'grotesque';
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/texgyreheros-bold-webfont.eot');
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/texgyreheros-bold-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/texgyreheros-bold-webfont.woff') format('woff'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/texgyreheros-bold-webfont.ttf') format('truetype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/texgyreheros-bold-webfont.svg#tex_gyre_herosbold') format('svg');
+		font-weight: bold;
+		font-style: regular;
+}
+
 /* bold italic */
-@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/stylesheet.css');
+@font-face {
+		font-family: 'grotesque';
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/texgyreheros-bolditalic-webfont.eot');
+		src: url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/texgyreheros-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/texgyreheros-bolditalic-webfont.woff') format('woff'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/texgyreheros-bolditalic-webfont.ttf') format('truetype'),
+				 url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/texgyreheros-bolditalic-webfont.svg#tex_gyre_herosbold_italic') format('svg');
+		font-weight: bold;
+		font-style: italic;
+}
 
 /* serif - Nimbus Roman No9 L */
 /* regular */
-@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/stylesheet.css');
+@font-face {
+		font-family: 'serif';
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/NimbusRomNo9L-Reg-webfont.eot');
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/NimbusRomNo9L-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/NimbusRomNo9L-Reg-webfont.woff') format('woff'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/NimbusRomNo9L-Reg-webfont.ttf') format('truetype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/NimbusRomNo9L-Reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+		font-weight: regular;
+		font-style: regular;
+}
+
 /* italic */
-@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/stylesheet.css');
+@font-face {
+		font-family: 'serif';
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/NimbusRomNo9L-RegIta-webfont.eot');
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/NimbusRomNo9L-RegIta-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/NimbusRomNo9L-RegIta-webfont.woff') format('woff'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/NimbusRomNo9L-RegIta-webfont.ttf') format('truetype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/NimbusRomNo9L-RegIta-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+		font-weight: regular;
+		font-style: italic;
+}
+
 /* bold */
-@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/stylesheet.css');
+@font-face {
+		font-family: 'serif';
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/NimbusRomNo9L-Med-webfont.eot');
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/NimbusRomNo9L-Med-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/NimbusRomNo9L-Med-webfont.woff') format('woff'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/NimbusRomNo9L-Med-webfont.ttf') format('truetype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/NimbusRomNo9L-Med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+		font-weight: bold;
+		font-style: regular;
+}
+
 /* bold italic */
-@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/stylesheet.css');
+@font-face {
+		font-family: 'serif';
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/NimbusRomNo9L-MedIta-webfont.eot');
+		src: url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/NimbusRomNo9L-MedIta-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/NimbusRomNo9L-MedIta-webfont.woff') format('woff'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/NimbusRomNo9L-MedIta-webfont.ttf') format('truetype'),
+				 url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/NimbusRomNo9L-MedIta-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+		font-weight: bold;
+		font-style: italic;
+}
+
