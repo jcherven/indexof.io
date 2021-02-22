@@ -67,7 +67,7 @@ body { /* {{{ */
 
 /* headings and paragraphs {{{ */
 p {
-	font-family:  'Helvetica','Karla';
+	font-family:  'Karla';
 	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 1;
@@ -75,32 +75,32 @@ p {
 }
 
 h1 {
-	font-family: 'Times New Roman','Playfair Display';
+	font-family: 'Playfair Display';
 	font-size: 5rem;
 	font-weight: 900;
 	font-kerning: auto;
 }
 
 h2 {
-	font-family: 'Times New Roman','Playfair Display';
+	font-family: 'Playfair Display';
 	font-size: 3rem;
 	font-weight: 900;
 }
 
 h3 {
-	font-family: 'Times New Roman','Playfair Display';
+	font-family: 'Playfair Display';
 	font-size: 2.5rem;
 	font-weight: 600;
 }
 
 h4 {
-	font-family: 'Helvetica','Karla';
+	font-family: 'Karla';
 	font-size: 2rem;
 	font-weight: 600;
 }
 
 h5 {
-	font-family: 'Helvetica','Karla';
+	font-family: 'Karla';
 	font-size: 1.6rem;
 	font-weight: 600;
 }
