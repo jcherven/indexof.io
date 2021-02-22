@@ -75,20 +75,20 @@ p {
 }
 
 h1 {
-	font-family: 'Times New Roman','Playfair';
+	font-family: 'Times New Roman','Playfair Display';
 	font-size: 5rem;
 	font-weight: 900;
 	font-kerning: auto;
 }
 
 h2 {
-	font-family: 'Times New Roman','Playfair';
+	font-family: 'Times New Roman','Playfair Display';
 	font-size: 3rem;
 	font-weight: 900;
 }
 
 h3 {
-	font-family: 'Times New Roman','Playfair';
+	font-family: 'Times New Roman','Playfair Display';
 	font-size: 2.5rem;
 	font-weight: 600;
 }
