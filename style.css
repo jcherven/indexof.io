@@ -1,0 +1,113 @@
+/* Web Fonts {{{ */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,600;1,300;1,600&family=Playfair+Display:ital,wght@0,600;0,900;1,600;1,900&display=swap');
+/* }}} */
+
+/* Color Custom Properties {{{ */
+:root {
+	--dark-fg:		#e4e4e4;
+	--dark-bg:		#080808;
+	--light-fg:		#080808;
+	--light-bg:		#e4e4e4;
+
+	--highGray2:	#b2b2b2;
+	--highGray3:	#8a8a8a;
+	--midGray1:		#6c6c6c;
+	--midGray2:		#4e4e4e;
+	--midGray3:		#3a3a3a;
+	--lowGray1:		#303030;
+	--lowGray2:		#262626;
+	--lowGray3:		#1c1c1c;
+
+	--highPurple:	#afafff;
+	--lowPurple:	#af5fff;
+	--highGreen:	#00ffaf;
+	--lowGreen:		#00d7d7;
+	--highRed:		#d75f87;
+	--lowRed:			#d7005f;
+	--highYellow:	#ffd700;
+	--lowYellow:	#af8700;
+}
+/* }}} */
+
+/* Basic light reset for modern browsers {{{ */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	/* Box sizing is not inherited by default. Make it inherit */
+	box-sizing: inherit;
+} /* }}} */
+
+/* Root font size conversion to rem (polite for zoom leveling) {{{ */
+html {
+	/* 62.5% = 10px */
+	/* 10px = 1rem */
+	font-size: 62.5%;
+} /* }}} */
+
+body { /* {{{ */
+  display: flex;
+	/* flow vertically */
+	flex-direction: column;
+	/* horizontal centering */
+	align-items: center;
+	/* vertical centering */
+	justify-content: center;
+	/* occupy the viewport vertically */
+	height: 100vh;
+	/* hides any default scrollbars */
+	overflow: hidden;
+	/* Total box sizes won't include border and padding */
+	box-sizing: border-box;
+
+	color: var(--dark-fg);
+	background-color: var(--dark-bg);
+} /* }}} */
+
+/* headings and paragraphs {{{ */
+p {
+	font-family: 'Helvetica,Helvetica Neue,Karla',sans-serif;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1;
+	font-kerning: auto;
+}
+
+h1 {
+	font-family: 'Times New Roman,Playfair',serif;
+	font-size: 5rem;
+	font-weight: 900;
+	font-kerning: auto;
+}
+
+h2 {
+	font-family: 'Times New Roman,Playfair',serif;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+h3 {
+	font-family: 'Times New Roman,Playfair',serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-family: 'Helvetica,Helvetica Neue,Karla',sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+h5 {
+	font-family: 'Helvetica,Helvetica Neue,Karla',sans-serif;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+/* }}} */
+
+/* Container {{{ */
+.container { 
+	max-width: 80%;
+}
+/* }}} */
