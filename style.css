@@ -67,42 +67,42 @@ body { /* {{{ */
 
 /* headings and paragraphs {{{ */
 p {
-	font-family:  'Karla';
+	font-family:  'grotesque';
 	font-size: 1.6rem;
-	font-weight: 300;
+	font-weight: regular;
 	line-height: 1;
 	font-kerning: auto;
 }
 
 h1 {
-	font-family: 'Playfair Display';
+	font-family: 'serif';
 	font-size: 5rem;
-	font-weight: 900;
+	font-weight: bold;
 	font-kerning: auto;
 }
 
 h2 {
-	font-family: 'Playfair Display';
+	font-family: 'serif';
 	font-size: 3rem;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 h3 {
-	font-family: 'Playfair Display';
+	font-family: 'serif';
 	font-size: 2.5rem;
-	font-weight: 600;
+	font-weight: regular;
 }
 
 h4 {
-	font-family: 'Karla';
+	font-family: 'grotesque';
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 h5 {
-	font-family: 'Karla';
+	font-family: 'grotesque';
 	font-size: 1.6rem;
-	font-weight: 600;
+	font-weight: bold;
 }
 /* }}} */
 

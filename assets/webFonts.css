@@ -1,56 +1,19 @@
-/* Generated with google-webfonts-helper.herokuapp.com */
-/* karla-300 - latin */
-@font-face {
-	font-family: 'Karla';
-	font-style: normal;
-	font-weight: 300;
-	src: url('../assets/font-karla/karla-v15-latin-300.eot'); /* IE9 Compat Modes */
-	src: local(''),
-			 url('../assets/font-karla/karla-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			 url('../assets/font-karla/karla-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-			 url('../assets/font-karla/karla-v15-latin-300.woff') format('woff'), /* Modern Browsers */
-			 url('../assets/font-karla/karla-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-			 url('../assets/font-karla/karla-v15-latin-300.svg#Karla') format('svg'); /* Legacy iOS */
-}
+/* grotesque - TeX Gyre Heroes */
+/* regular */
+@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_regular_macroman/stylesheet.css');
+/* regular italic */
+@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_italic_macroman/stylesheet.css');
+/* bold regular */
+@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_bold_macroman/stylesheet.css');
+/* bold italic */
+@import url('../assets/font-TeX-Gyre-Heros/texgyreheros_bolditalic_macroman/stylesheet.css');
 
-/* karla-600 - latin */
-@font-face {
-	font-family: 'Karla';
-	font-style: normal;
-	font-weight: 600;
-	src: url('../assets/font-karla/karla-v15-latin-600.eot'); /* IE9 Compat Modes */
-	src: local(''),
-			 url('../assets/font-karla/karla-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			 url('../assets/font-karla/karla-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-			 url('../assets/font-karla/karla-v15-latin-600.woff') format('woff'), /* Modern Browsers */
-			 url('../assets/font-karla/karla-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-			 url('../assets/font-karla/karla-v15-latin-600.svg#Karla') format('svg'); /* Legacy iOS */
-}
-
-/* playfair-display-600 - latin */
-@font-face {
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: 600;
-	src: url('../assets/font-playfair-display/playfair-display-v22-latin-600.eot'); /* IE9 Compat Modes */
-	src: local(''),
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-600.woff') format('woff'), /* Modern Browsers */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-600.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
-}
-
-/* playfair-display-900 - latin */
-@font-face {
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: 900;
-	src: url('../assets/font-playfair-display/playfair-display-v22-latin-900.eot'); /* IE9 Compat Modes */
-	src: local(''),
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-900.woff') format('woff'), /* Modern Browsers */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-			 url('../assets/font-playfair-display/playfair-display-v22-latin-900.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
-}
+/* serif - Nimbus Roman No9 L */
+/* regular */
+@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_regular_macroman/stylesheet.css');
+/* italic */
+@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_italic_macroman/stylesheet.css');
+/* bold */
+@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bold_macroman/stylesheet.css');
+/* bold italic */
+@import url('../assets/font-nimbus-roman-no9/nimbusromanno9l_bolditalic_macroman/stylesheet.css');
